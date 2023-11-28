@@ -1,0 +1,187 @@
+body {
+    background-color: rgba(237, 240, 161, 0.993); /* color a toda la pagina */
+}
+body { 
+    font-family: 'Poppins', sans-serif; /* letra cursiva a como desee de googlo font copia y pega el link html y css */
+    max-width: 900px;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;/* Es para ajustar la parte de los inicios de la pagina */
+    height: 160px;
+    background-color: rgb(50, 38, 110)
+}
+
+
+.navbar {
+    height: 50px;
+  }
+  .nav-link {
+    color: red;
+  }
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px;
+}
+nav ul li:hover{ background-color: rgb(141, 241, 26);
+}
+
+
+.img-logo{
+    width: 180px;      /* subir parte del logo de la pagina */
+    padding: 20px;
+    padding-right: 5%;
+}
+nav ul{
+    padding: 290px;
+}
+nav ul{
+    padding-top: 10px; /* relleno superior */
+    display: inline-flex;
+    position: relative;
+    top: -130px;
+}
+nav ul li a{
+    text-decoration: none; /* DECORACION DE TEXTO */
+    color: rgb(220, 229, 241)
+}
+h2 figure ul{
+    margin: 0%;
+}
+img{
+    max-width: 100%; /* No se identifica cambio alguno */
+}
+.seccion1{
+    background-color: rgb(180, 243, 156); /* es para sobrear primera seccion, se llama la clase en HTML */
+}
+
+.video{
+    width: 50%;
+    padding: 45px;
+}   /* de altura de video*/
+
+.texto{
+    width: 35px; /* para max o min parrafos */
+    padding: 8px;
+    vertical-align: top; /* se llama la SECCION en HTML */
+}
+
+article{
+    padding: 30px;
+    margin-top: 20px; /* separacion de parrafo con otro elem hacia abajo */
+    background-color: rgb(247, 243, 223); /* color para parrafos  */
+}
+
+article h2{
+    border-bottom: 1px solid black; /* sirve para trazar linea en los parrafos de las h */
+}
+
+.texto, .video{
+display: inline-block;  /* para acomodar a los lados */
+float: left /* sirve para colorcar el parrafo al lado derecho */
+
+}
+.boton{
+    text-align: center;
+    background-color: rgb(236, 149, 149); /* colorcar color a ver mas */
+    padding: 8px;
+}
+.boton a{
+    text-decoration: none;
+    color:rgb(13, 6, 78) /* decoracion a letras */
+}
+.boton:hover{
+    background: rgb(32, 36, 224);
+    margin: 0%;
+}
+
+/* ARTICLES */
+
+section{
+    background-color: rgb(164, 230, 208); /* color de fondo para parrafo */
+    padding: 15px;
+}
+
+section h2{
+    border-bottom: 1px solid rgb(8, 0, 0); /* Para trazar lineas en los parrafos hhhhh */
+    width: 50%; /* se ajusto la linea solo al parrafo */
+    text-align: center;
+}
+
+.img-art { /* va HTML para min o max imag */
+    max-width: 100%; 
+}
+.cont-art{ /* para min o max parrafo */
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(240, 225, 184); /* Todo esto para el pie de pagina */
+    color: rgb(5, 2, 3);
+    line-height: 30px; /* separacion altura de la letra */
+    text-align: center; /* centrar parrafo */
+    padding: 30px; /* relleno de parrafo */
+    margin-top: 30px;
+}
+footer div a{
+    text-decoration: none;
+    color:rgb(3, 92, 77) /*  color de letra */
+}
+
+/* SECCION 3 */
+
+
+.seccion2{
+    background-color: rgb(238, 238, 215); /* es para sobrear primera seccion, se llama la clase en HTML */
+    margin: 0%;
+}
+
+.texto{
+    width: 50%;
+    padding: 45px;
+}/* de altura*/
+
+.texto{
+    width: 35%; /* para max o min parrafos */
+    padding: 8px;
+    vertical-align: top; /* se llama la SECCION en HTML */
+}
+
+
+
+
+
+.cont-art p{ /* colocar sombra al solo parrafo */
+    width: 50%;
+    vertical-align: top; /* centrar texto  */
+    text-align: left;
+    background-color: rgb(237, 247, 216);
+}
+.image-container {
+    float: right; /* olocar la imagen a la derecha  */
+    width: 300px;  /* para anchar imagen  */
+    height: 250px;/* para subir altura imag */
+    margin-top: 35px; /* bajar imagen - separarla de otro elemento */
+  }
+
+  /* parte */
+
+  @media screen and (max-width: 831px){
+
+    .contenedor{
+        width: 100%;
+    }
+nav{
+    width: 100%;
+    height: 280px;
+    background-color: rgb(164, 164, 250);
+}
+nav ul{
+    padding-top: 10px;
+}
+  }

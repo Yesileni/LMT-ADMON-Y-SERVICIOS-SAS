@@ -1,0 +1,365 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(233, 241, 240);
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(236, 227, 227)272;
+
+}
+
+.navbar {
+  /* para min o max parte del inicio de la pagina */
+  background-color: black;
+  color: rgb(72, 183, 81);
+  height: 150px;
+  width: 1054px;
+  text-align: right;
+
+}
+
+.navbar{
+  background-color: rgb(2, 23, 23); /* Color a los titulos de inicio navegacioN */
+}
+
+
+.barra{
+  background-color: rgb(21, 3, 80) !important; /* color a la barra de navegacion */
+  text-align: center;
+}
+
+.form1 {
+  margin-top: -380px; /* Bien se ubico hacia arriba  */
+  text-align: center;
+}
+
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+
+.navbar-nav .nav-link {
+  color: red;
+}
+
+.navbar-nav .nav-link.active {
+  color: #683939;
+}
+
+.navbar {
+  background-color: rgb(0, 255, 64)(162, 19, 19);
+  color: rgb(208, 255, 0);
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(6, 223, 136);
+  padding: color: red;
+ 
+}
+
+.bara{
+  background-color: beige;
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(8, 0, 0);
+}
+
+/* PRIMERA SECCION */
+
+
+body {
+  background-color: rgba(81, 164, 179, 0.993);
+  /* color a toda la pagina */
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* letra cursiva a como desee de googlo font copia y pega el link html y css */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: auto;
+  width: 100%;
+}
+
+.imagen1 {
+  margin-left: 30px;
+  /* AJUSTE DE IAMGEN */
+  margin-bottom: 40px;
+  margin: 300px 0 0 300px;
+  width: 350px;
+  float: right;
+  transform: translateY(-250px);
+  /* PARA SUBIR IMAGEN */
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  /* Es para ajustar la parte de los inicios de la pagina */
+  height: 160px;
+  background-color: rgb(50, 38, 110);
+
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  transition: 0.8s all;
+  padding: 18px 20px;
+}
+
+nav ul li:hover {
+  background-color: rgb(141, 241, 26);
+  /* COLOR A LOS LADOS  */
+}
+
+nav ul li a {
+  text-decoration: none;
+  /* DECORACION DE TEXTO */
+  color: rgb(220, 229, 241)
+}
+
+h2 h4 h5 figure ul {
+  margin: 0%;
+}
+
+.video {
+  transform: translateY(-150px);
+  margin-left: 5%;
+  /* SUBIR VIDEO */
+}
+
+.imagen2 {
+  float: right;
+  width: 200px;
+  height: 310px;
+  transform: translateY(1000px);
+  /* PARA BAJAR IMAGEN */
+}
+
+.texto {
+  width: 50%;
+  /* para max o min parrafos */
+  padding: 8px;
+  vertical-align: top;
+  /* se llama la SECCION en HTML */
+  text-align: justify;
+}
+
+article {
+  padding: 100px;
+  margin-top: 300px;
+  /* separacion de parrafo con otro elem hacia abajo y lados */
+  background-color: rgb(225, 234, 248);
+  /* color para parrafos  */
+  margin: auto;
+  width: 117%;
+  margin-top: -80px;
+  color
+}
+
+
+
+/* SEGUNDA SECCION */
+
+
+.seccion2 {
+  text-align: justify;
+}
+
+.seccion2 img h2 ul li {
+  text-align: center;
+  text-align: justify;
+}
+
+div h2 ul li {
+  text-align: justify;
+  height: 50px;
+}
+
+.texto1 h2 {
+  text-align: justify;
+  text-align: left;
+  transform: translateY(-50px);
+  transform: translateY(-20px);
+}
+
+.texto1 {
+  margin-left: -45px;
+  /* PARA ACOMODAR TEXTO */
+  margin-right: 300px;
+  position: relative;
+}
+
+style p {
+  text-align: right;
+  float: left;
+}
+
+.imagen3 {
+  /* PARA ANCHAR O MINIMIZAR IMAGEN */
+  float: right;
+  width: 300px;
+  height: 300px;
+  transform: translateY(-100px);
+  /* PARA SUBIR IMAGEN */
+  margin-right: -315px;
+}
+
+/* SECCION 3 */
+
+.seccion3 {
+  text-align: justify;
+}
+
+.seccion3 {
+  text-align: center;
+  text-align: justify;
+}
+
+.imagen4 {
+  /* PARA ANCHAR O MINIMIZAR IMAGEN */
+  float: right;
+  width: 350px;
+  height: 310px;
+  transform: translateY(-4px);
+  /* PARA SUBIR IMAGEN */
+  margin-right: -200px;
+}
+
+.texto2 {
+  margin-top: 15%;
+}
+
+
+
+/* SECCION 4 */
+
+.seccion4 {
+  text-align: justify;
+}
+
+.seccion4 h2 h5 p ul li {
+  text-align: center;
+  display: inline-block;
+}
+
+.texto4 {
+  transform: translateY(50px);
+}
+
+
+/* SECCION 5 */
+
+
+.seccion5 {
+  margin-top: 2%;
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  margin-right: -2%;
+  text-align: justify;
+  width: 450px;
+  float: right;
+  transform: translateY(45px);
+}
+
+.video5 {
+  transform: translateY(120px);
+  /* ok */
+}
+
+
+.seccion6,
+form {
+  transform: translateY(200px);
+}
+
+.p1 {
+  transform: translateY(405px);
+  /* PARA SUBIR O BAJAR TEXTO */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  border-bottom: 1px solid black;
+  width: 360px;
+}
+
+
+.p6 {
+  font-weight: bold;
+  color: blue;
+  font-style: italic;
+}
+
+
+.footer {
+  transform: translateY(90px);
+  margin-top: 20%;
+}
+
+
+footer {
+  background-color: rgb(230, 185, 63);
+  /* Todo esto para el pie de pagina */
+  color: rgb(5, 2, 3);
+  line-height: 30px;
+  /* separacion altura de la letra */
+  text-align: center;
+  /* centrar parrafo */
+  padding: 5px;
+  /* relleno de parrafo */
+  margin-top: 20px;
+  transform: translateY(-5px);
+}
+
+
+
+
+footer div a {
+  text-decoration: none;
+  color: rgb(3, 92, 77)
+    /*  color de letra */
+}
+
+/* SECCION 3 */
+
+
+/* PARTE PARA QUE ABRA EN APLIC */
+
+@media screen and (max-width: 831px) {
+
+  .contenedor {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    height: 280px;
+    background-color: rgb(164, 164, 250);
+  }
+
+  nav ul {
+    padding-top: 10px;
+  }
+}
